@@ -1,0 +1,17 @@
+const elements = ["Athos", "Porthos", "Aramis"];
+
+let ofElements;
+for (ofElements of elements){
+console.log(ofElements);
+}
+
+
+ elements.forEach(myElements =>{
+console.log(` ${myElements}`);
+});
+
+elements.push("D'Artagnan");
+ console.log(elements [elements.length -1]);
+
+ elements.splice(elements.indexOf(`Aramis`), [1]);
+ console.log (elements);
